@@ -1,5 +1,3 @@
-# Supplementary Material Code
-
 ## Introduce
 
 In the code/reproduce folder, we reproduce the results by our model and save the selection results (2%, 4%, 6%, 8%, 10%, 12%, 14%, 16%, 18%, 20% labeled samples). You can evaluate the performances of these selections by execute the acc.py and other files. This program will train a ResNet-18 with our labeled samples and evaluate on the test set.
