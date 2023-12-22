@@ -1,4 +1,3 @@
-# Supplementary Material Code
 
 ## Introduce
 
