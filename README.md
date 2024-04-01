@@ -1,5 +1,8 @@
 ## Introduce
 
+This repo is the released code for "Downstream-Pretext Domain
+Knowledge Traceback for Active Learning" in TMM.
+
 In the code/reproduce folder, we reproduce the results by our model and save the selection results (2%, 4%, 6%, 8%, 10%, 12%, 14%, 16%, 18%, 20% labeled samples). You can evaluate the performances of these selections by execute the acc.py and other files. This program will train a ResNet-18 with our labeled samples and evaluate on the test set.
 
 
@@ -16,7 +19,7 @@ In the code/reproduce folder, we reproduce the results by our model and save the
 - tqdm >= 4.31.1
 
 ### Evaluate our reproduced result
-You can evaluate our reproduced results by running the command under './cvpr23'.  (This command should be runned under the directory code/reproduce/  )
+You can evaluate our reproduced results by running the command under './TMM'.  (This command should be runned under the directory code/reproduce/  )
 
 
 ```
